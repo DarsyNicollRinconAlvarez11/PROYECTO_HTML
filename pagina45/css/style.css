@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container{
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 50% 50%;
+}
+.hello h1{
+    top: 5%;
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+}
+.hello p{
+    top: 5%;
+    display: flex;
+    position: absolute;
+}
+.imgello{
+    align-content: right;
+    position: absolute;
+    margin-top: 2%;
+    right: 0;
+    width: 50%;
+    height: 95.3vh;
+}
+.hello h1{
+    top: 1%;
+    display: flex;
+    right: 2%;
+}
+.hello p{
+    color: rgb(0, 0, 0);
+    font-size: 28;
+    margin-top: 3%;
+    right: 2%;
+    display: flex;
+}
+.centro{
+    align-content: left;
+    position: absolute;
+    margin-top: 2%;
+    left: 0;
+    width: 50%;
+    height: 69%;
+}
+.tittle {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 50px; 
+    margin-left: 5%; 
+    color: white;
+    font-size: 70px;
+}
+
+.text {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 35%; 
+    margin-left: 5%; 
+}
+.imagenes{
+    margin-top: 34.6%;
+    position: absolute;
+    display:flex ;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 50%;
+    height: 309px;
+    
+}
+.imagenes img{
+    width: 100%;
+    height: 100%;
+    margin-left: -1%;
+    margin-bottom: -1%;
+}
+.botton{
+    z-index: 2;
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: solid white;
+    color: rgb(24, 23, 23);
+    background-color: white;
+    font-size: 20px;
+    margin-left: 5%;
+    top: 47%;
+    
+}
+.escritos1{
+    margin-left: 1%;
+    z-index: 2;
+    width: 23%;
+    top: 67%;
+    display: grid;
+    position: absolute;
+    font-size: 20px; 
+}
+.escritos{
+    letter-spacing: 2px;
+    margin-left: 26%;
+    z-index: 2;
+    width: 23%;
+    top: 67%;
+    display: grid;
+    position: absolute;
+    font-size: 20px; 
+}
+h1 {
+    margin-bottom: 0%;
+}
+p{
+    margin-top: 0%;
+}
+@media(max-width:700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .centro  {
+        left: -3%;
+        right: -10%;
+        position: absolute;
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        width: 110%;
+    }
+    .tittle{
+        height: 20%;
+        position: relative;
+        display: flex;
+        font-size: 36px;
+        text-align: cenleftter;
+        flex-direction: column;
+        width: 100%;
+    }
+    .text{
+        position: relative;
+        top: 20px;
+        margin-top:40px;
+        display: flex;
+        font-size: 20px;
+        text-align: left;
+        flex-direction: column;
+        
+    }
+    .botton{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        margin-top: 10%;
+        font-size: 25px;
+        top: 50%;
+        left: 2%;
+    }
+    .imagenes {
+        left: -3%;
+        right: -10%;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        margin-top: 0%;
+        top: -170px;
+        width: 110%;
+        height: 50%;
+    }
+    
+    .escritos1{
+        display: flex;
+        flex-direction: column; 
+        position: relative;
+        margin-top: 2%;
+        top: 70px;
+        width: 80%;
+        height: 50%;
+     }
+     .escritos{
+        display: flex;
+        flex-direction: column; 
+        position: relative;
+        margin-top: 4%;
+        top: 290px;
+        margin-left: 2%;
+        width: 100%;
+        height: 50%;
+     }
+    .hello h1{
+        top: 5%;
+        display: flex;
+        position: absolute;
+        font-size: 50px;
+    }
+    .imgello{
+        margin-top: -35%;
+        top: -38px;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        height: 70%;
+        width: 110%;
+        margin-left: -2%;
+    }
+    .hello h1{
+        position: absolute;
+        color: rgb(0, 0, 0);
+        font-size: 28;
+        top: 158%;
+        right: 2%;
+        display: flex;
+
+    }
+    .hello p{
+        position: absolute;
+        color: rgb(0, 0, 0);
+        font-size: 28;
+        top: 169%;
+        right: 2%;
+        display: flex;
+
+    }
+    
+}
